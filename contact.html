@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edford university</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eac19630eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+
+        <div class="navlinks" id="navlinks">
+          <ul>
+            <i class="fa fa-times" onclick="hidemenu()" id="close"></i>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+    <h1>contact us</h1>
+
+
+    </section>
+
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089786562!2d77.46612843076299!3d12.95394561558119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1713688886138!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+    <section class="contact-us">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+           <h5> XYZ road, ABC building </h5>
+           <p>Bangalore, karnataka,IN</p>
+          </span>
+        </div>
+
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+           <h5>+1 0123456789 </h5>
+           <p>Bangalore,karnataka ,IN</p>
+
+           
+          </span>
+        </div>
+
+
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span>
+           <h5> Eduford546@gmail.com </h5>
+           <p>email us your query</p>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="contact-col">
+          
+        <form action="">
+
+          <input type="text" placeholder="enter your name" required>
+          <input type="email" placeholder="enter your email" required>
+          <input type="text" placeholder="enter your subject" required>
+          <textarea name="" id=""  rows="8" placeholder="message"></textarea>
+          <button type="submit" class="hero-btn red-btn">send message</button>
+
+
+        </form>
+
+
+
+
+      </div>
+    </section>
+
+  
+
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Eduford University is a private Ivy League research university in
+        Cambridge, Massachusetts. Founded in 1636 as Harvard College and named
+        for its first benefactor, Puritan clergyman John Harvard, it is the
+        oldest institution of higher learning in the United States.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+      <p>made with <i class="fa fa-heart-o"></i> by sayan choudhury</p>
+    </section>
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+         function showmenu(){
+            navlinks.style.right="0";
+    
+         }
+         function hidemenu(){
+            navlinks.style.right="-700px";
+         }
+    </script>
+  </body>
+</html>

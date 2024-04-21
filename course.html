@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edford university</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eac19630eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+
+        <div class="navlinks" id="navlinks">
+          <ul>
+            <i class="fa fa-times" onclick="hidemenu()" id="close"></i>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Our courses</h1>
+    </section>
+         
+
+    <section class="course">
+      <h1>courses we offer</h1>
+      <p>we offer many job-oriented course that will help you to grow in your life </p>
+      
+  
+     <div class="row">
+  
+      <div class="course-col">
+          <h3>bachelors degree</h3>
+          <p>These are the most common degrees pursued after completing high school (10+2)
+          Bachelor of Arts (B.A.), Bachelor of Science (B.Sc.), and Bachelor of Commerce (B.Com.) are some examples.
+              These courses typically last for 3 years, although there are exceptions.
+              Upon completion, students receive a bachelors degree in their chosen field</p>
+      </div>
+  
+      <div class="course-col">
+          <h3>masters degree</h3>
+          <p>These advanced degrees are pursued after earning a bachelors degree
+              Common examples include Master of Arts (MA), Master of Science (MS), Master of Fine Arts (MFA), and Master of Business Administration (MBA)
+          </p>
+      </div>
+  
+      <div class="course-col">
+          <h3>phd</h3>
+          <p>Candidates must have completed a PG degree to pursue a PhD Course
+              A doctorate or doctoral degree is a postgraduate academic degree awarded by universities and some other educational institutions, derived from the ancient formalism licentia docendi. In most countries…
+  
+          </p>
+      </div>
+     </div>
+  
+  
+     </section>
+
+
+
+     <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>our university has many facilities like hands-on internship</p>
+      <div class="row">
+      <div class="facilities-col">
+          <img src="library.png" alt="">
+          <h3>world class libary</h3>
+          <p>our university has a world class liabary with many books and knowledge</p>
+      </div>
+  
+      <div class="facilities-col">
+          <img src="basketball.png" alt="">
+          <h3>largest play ground</h3>
+          <p>our university has great play ground with basketball court , swimming-pool and running area</p>
+      </div>
+  
+  
+      <div class="facilities-col">
+          <img src="cafeteria.png" alt="">
+          <h3>tasty and healthy foods</h3>
+          <p>our university has many cafeterias which provide delicious food like piza,burger,chowmein etc</p>
+      </div>
+      </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Eduford University is a private Ivy League research university in
+        Cambridge, Massachusetts. Founded in 1636 as Harvard College and named
+        for its first benefactor, Puritan clergyman John Harvard, it is the
+        oldest institution of higher learning in the United States.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+      <p>made with <i class="fa fa-heart-o"></i> by sayan choudhury</p>
+    </section>
+
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-700px";
+      }
+    </script>
+  </body>
+</html>
